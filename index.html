@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WasteWise Connect | Smart Township Waste Recovery</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <!-- Favicon: replace with your logo file (PNG/SVG/ICO) -->
+    <link rel="icon" type="image/png" href="logo.png">
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <a href="#" class="logo" aria-label="WasteWise Connect home">
+    <!-- Replace the src below with your logo file path (e.g. assets/logo.png or images/logo.svg) -->
+    <img src="logo.png" alt="WasteWise Connect logo" class="logo-img">
+    <div class="logo-text">Waste<span>Wise</span> Connect</div>
+</a>
+                
+                <div class="mobile-toggle" id="mobileToggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+                
+                <div class="nav-links" id="navLinks">
+                    <a href="#problem">The Problem</a>
+                    <a href="#solution">Our Solution</a>
+                    <a href="#partnership">Partnership</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text fade-in">
+                    <h1>Turning Township <span>Waste</span> Into Digital Assets</h1>
+                    <p>A smart platform that optimizes municipal waste collection while creating a circular economy for plastics. Increase efficiency, reduce dumping, and empower communities through technology.</p>
+                    <div class="cta-buttons">
+                        <a href="#contact" class="btn btn-primary">Partner With Us</a>
+                        <a href="#solution" class="btn btn-secondary">Learn More</a>
+                    </div>
+                </div>
+                <div class="hero-visual fade-in" aria-hidden="false">
+                    <!-- Replace the src attribute below with your hero image path (e.g. assets/hero.jpg) -->
+                    <div class="hero-image" aria-hidden="false">
+                        <img src="hero section image.png" alt="Community waste collection in action" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Problem Section -->
+    <section class="section" id="problem">
+        <div class="container">
+            <h2 class="section-title">The Township Waste Crisis</h2>
+            <p class="section-subtitle">Inefficient waste management leads to environmental degradation, health hazards, and economic loss in South African townships.</p>
+            
+            <div class="problem-container">
+                <div class="problem-card fade-in">
+                    <i class="fas fa-truck-loading"></i>
+                    <h3>Inefficient Collection</h3>
+                    <p>Waste trucks follow fixed routes regardless of bin status, wasting fuel and missing full bins while visiting empty ones.</p>
+                </div>
+                
+                <div class="problem-card fade-in">
+                    <i class="fas fa-trash-alt"></i>
+                    <h3>Illegal Dumping Sites</h3>
+                    <p>Unreliable collection schedules lead to overflowing bins and illegal dumping, creating health and environmental hazards.</p>
+                </div>
+                
+                <div class="problem-card fade-in">
+                    <i class="fas fa-recycle"></i>
+                    <h3>Lost Recyclable Value</h3>
+                    <p>Valuable plastics and packaging get buried in general waste instead of entering the circular economy.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Solution Section -->
+    <section class="section" id="solution">
+        <div class="container">
+            <h2 class="section-title">Our Smart Solution</h2>
+            <p class="section-subtitle">WasteWise Connect uses technology to optimize waste collection and create economic value from recyclables.</p>
+            
+            <div class="solution-steps">
+                <div class="step fade-in">
+                    <h3>Household Reporting</h3>
+                    <p>Residents report full bins and presorted recyclables via free USSD code. Earn digital "green points" for participation.</p>
+                </div>
+                
+                <div class="step fade-in">
+                    <h3>AI-Optimized Routing</h3>
+                    <p>Our algorithm creates dynamic routes based on real-time reports, traffic, and recyclable hotspots. Saves 30%+ in fuel costs.</p>
+                </div>
+                
+                <div class="step fade-in">
+                    <h3>Real-Time Tracking</h3>
+                    <p>Communities see truck locations via app. Municipalities monitor operations through a comprehensive dashboard.</p>
+                </div>
+                
+                <div class="step fade-in">
+                    <h3>Circular Economy</h3>
+                    <p>Collected recyclables are sold to processing plants. Revenue funds community rewards and platform sustainability.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Partnership CTA -->
+    <section class="cta-section" id="partnership">
+        <div class="container">
+            <h2>Ready to Transform Township Waste Management?</h2>
+            <p>Join us as a pilot municipality, waste collection partner, or recycling processor. Together we can build a cleaner, more sustainable future.</p>
+            <a href="#contact" class="btn btn-primary">Start Partnership</a>
+        </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section class="section" id="contact">
+        <div class="container">
+            <h2 class="section-title">Get Involved</h2>
+            <p class="section-subtitle">Whether you're a municipality, investor, community leader, or interested resident, we want to hear from you.</p>
+            
+            <div class="form-container fade-in">
+                <form id="contactForm">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name">Full Name *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="organization">Organization / Community</label>
+                        <input type="text" id="organization" name="organization">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label>How would you like to engage? *</label>
+                        <div class="radio-group">
+                            <div class="radio-option">
+                                <input type="radio" id="pilot" name="engagement" value="pilot" required>
+                                <label for="pilot">Pilot Community</label>
+                            </div>
+                            <div class="radio-option">
+                                <input type="radio" id="partner" name="engagement" value="partner">
+                                <label for="partner">Municipal Partner</label>
+                            </div>
+                            <div class="radio-option">
+                                <input type="radio" id="investor" name="engagement" value="investor">
+                                <label for="investor">Investor</label>
+                            </div>
+                            <div class="radio-option">
+                                <input type="radio" id="other" name="engagement" value="other">
+                                <label for="other">Other</label>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="4" placeholder="Tell us about your waste management challenges or partnership interest..."></textarea>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="newsletter">
+                            <input type="checkbox" id="newsletter" name="newsletter" checked>
+                            Sign up for pilot updates and waste innovation news
+                        </label>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary" style="width: 100%;">Submit Interest</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <div class="footer-logo">
+                        <div class="logo-icon">W</div>
+                        <div class="logo-text">Waste<span>Wise</span> Connect</div>
+                    </div>
+                    <p>A technology platform transforming township waste management through optimization and circular economy principles.</p>
+                    <p>Entry for the 2026 EDHE & Mr Price Foundation Waste Innovation Challenge.</p>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <a href="#problem">The Problem</a>
+                    <a href="#solution">Our Solution</a>
+                    <a href="#partnership">Partnership</a>
+                    <a href="#contact">Get Involved</a>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Contact</h4>
+                    <a href="mailto:contact@wastewiseconnect.co.za">
+                        <i class="fas fa-envelope"></i> contact@wastewiseconnect.co.za
+                    </a>
+                    <a href="tel:+27123456789">
+                        <i class="fas fa-phone"></i> +27 12 345 6789
+                    </a>
+                    <a href="#">
+                        <i class="fas fa-map-marker-alt"></i> Based in South African Townships
+                    </a>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>&copy; 2026 WasteWise Connect. All rights reserved. | Designed for the Waste Innovation Challenge</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
